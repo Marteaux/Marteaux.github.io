@@ -1,0 +1,263 @@
+
+
+/*BUREAU MARTEAUX */
+
+/*GENERAL */
+
+html, body {
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+body    {
+    height: 100%;
+    margin: 0;
+    line-height: 1;
+}
+
+.about {
+    overflow-x: hidden;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    background-color:#000;
+    height: 100%;
+    margin: 0;
+}
+
+.links {
+    float: left;
+}
+
+.rechts {
+    float: right;
+}
+
+.row    {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.col-xs-12 {
+    margin: 10;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.row-top    {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: 100%;
+}
+
+.row-top .col-xs-12 {
+    padding: 10px;
+    float: right;
+    flex-wrap: wrap;
+}
+
+::selection {
+    color: #E21E1E;
+}
+
+.hidden {
+    display: none;
+}
+
+a:hover   {
+    cursor: pointer;
+}
+
+
+
+.contact {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+}
+
+/*NED */
+
+.ned    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    color: black;
+    position: relative;
+    display: inline;
+}
+
+.nedW    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline;
+}
+
+a.ned:hover {
+    color: #E21E1E;
+}
+
+a.nedW:hover {
+    color: #E21E1E;
+}
+
+
+/*ENG */
+
+.eng    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline;
+}
+
+.engW    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline;
+}
+
+a.eng:hover {
+    color: #E21E1E;
+}
+
+a.engW:hover {
+    color: #E21E1E;
+}
+
+#info-p  {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.3em;
+  text-align: left;
+  max-width: 550px;
+  width: 100%;
+    max-height: 500px;
+  padding: 0em 2em 0em 2em;
+  margin: 1em 2em 0em 2em;
+    color: white;
+    overflow: hidden;
+}
+
+#info-work {
+    margin-left: 9em;
+    width: 300px;
+    float: left;
+}
+
+#info-work p{
+    font-size: 1.3em;
+    color: #848484;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.top-container    {
+    display: block;
+    width: 100%;
+    height: 3em;
+    z-index: 9999;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.right  {
+    float: right;
+    width: 100%;
+}
+
+
+a.logo    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    float: left;
+    margin: 1vw 1.8vh;
+    z-index: 9999;
+}
+
+a.info-logo {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin: 1vw 1.8vh;
+    z-index: 9999;
+
+}
+
+a.contact    {
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 0% 0%;
+    margin: 1vw 3vh;
+    float: right;
+    color: black;
+    z-index: 9999;
+}
+
+.language    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    display: inline;
+}
+
+
+.languageW    {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: inline;
+}
+
+
+a.info-exit    {
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    text-decoration: none;
+    padding: 0% 0%;
+    margin: 1vw 3vh;
+    float: right;
+    color: white;
+    z-index: 9999;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    }
+
+#linkgrey {
+    color: #848484;
+    text-decoration: none;
+    }
+
+#link-email {
+    color: #DA3232;
+    text-decoration: none;
+    }
