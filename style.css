@@ -94,8 +94,6 @@ a:hover   {
     font-size: 20px;
     text-decoration: none;
     color: white;
-    position: relative;
-    display: inline;
 }
 
 a.ned:hover {
@@ -123,8 +121,6 @@ a.nedW:hover {
     font-size: 20px;
     text-decoration: none;
     color: white;
-    position: relative;
-    display: inline;
 }
 
 a.eng:hover {
