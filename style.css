@@ -98,10 +98,12 @@ a:hover   {
 
 a.ned:hover {
     color: #E21E1E;
+    text-decoration: none;
 }
 
 a.nedW:hover {
     color: #E21E1E;
+    text-decoration: none;
 }
 
 
@@ -125,10 +127,12 @@ a.nedW:hover {
 
 a.eng:hover {
     color: #E21E1E;
+    text-decoration: none;
 }
 
 a.engW:hover {
     color: #E21E1E;
+    text-decoration: none;
 }
 
 #info-p  {
@@ -245,6 +249,11 @@ a.info-exit    {
 
 .link {
     color: white;
+    text-decoration: none;
+    }
+
+.link:hover {
+    color: #E21E1E;
     text-decoration: none;
     }
 
