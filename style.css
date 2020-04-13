@@ -13,7 +13,11 @@ html, body {
 body    {
     height: 100%;
     margin: 0;
-    line-height: 1;
+    line-height: 1.2;
+}
+
+.text-home {
+    line-height: 2;
 }
 
 .about {
