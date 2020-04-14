@@ -76,8 +76,6 @@ a:hover   {
     cursor: pointer;
 }
 
-
-
 .contact {
     font-family: 'Work Sans', sans-serif;
     display: flex;
@@ -188,35 +186,52 @@ a.engW:hover {
 
 a.logo    {
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     text-decoration: none;
     color: black;
     float: left;
-    margin: 1vw 1.8vh;
+    margin: 2vw 1.8vh;
     z-index: 9999;
+    padding: 3px;
+}
+
+a.logo:hover    {
+    transform: rotate(-5deg);
+    transition: transform 0.5s;
+    color: #E21E1E;
 }
 
 a.info-logo {
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     text-decoration: none;
     color: white;
     float: left;
-    margin: 1vw 1.8vh;
+    margin: 2vw 1.8vh;
     z-index: 9999;
+    padding: 3px;
+}
 
+a.info-logo:hover    {
+    transform: rotate(-5deg);
+    transition: transform 0.5s;
+    color: #E21E1E;
 }
 
 a.contact    {
     text-align:center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     text-decoration: none;
-    padding: 0% 0%;
-    margin: 1vw 3vh;
+        padding: 3px;
+    margin: 2vw 3vh;
     float: right;
     color: black;
     z-index: 9999;
+}
+
+a.contact:hover    {
+    color: #E21E1E;
 }
 
 .language    {
@@ -242,13 +257,17 @@ a.contact    {
 a.info-exit    {
     text-align:center;
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 38px;
     text-decoration: none;
-    padding: 0% 0%;
-    margin: 1vw 3vh;
+    padding: 3px;
+    margin: 2vw 3vh;
     float: right;
     color: white;
     z-index: 9999;
+}
+
+a.info-exit:hover    {
+    color: #E21E1E;
 }
 
 .link {
