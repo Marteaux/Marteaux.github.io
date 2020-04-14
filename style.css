@@ -302,7 +302,20 @@ a.info-exit:hover    {
     
 #info-work {
     margin-left: 0;
+    width: 350px;
 }   
+    
+.long-text {
+        display: none;
+    }   
+    
+.short-text {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) { 
+ 
     
 .long-text {
         display: none;
