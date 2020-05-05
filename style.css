@@ -285,8 +285,13 @@ a.info-exit:hover    {
     text-decoration: none;
     }
 
-#link-email {
+.link-email {
     color: #DA3232;
+    text-decoration: none;
+    }
+
+a.link-email:hover {
+    color: red;
     text-decoration: none;
     }
 
